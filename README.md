@@ -4,3 +4,4 @@ Este repositório contém os códigos desenvolvidos quando da realização do cu
 Conteúdo:
 
 Aula 01 - Annotations e Reflection API.
+Aula 02 - Generics.
