@@ -1,0 +1,25 @@
+Exercício 2
+
+Crie uma classe Property que possui métodos estáticos para atribuir e obter valores de
+atributos de uma classe através de chamadas aos métodos getters e setters
+correspondentes via reflexão.
+
+Observe um exemplo:
+
+Pessoa p = new Pessoa();
+Property.set(p, "nome", "Pedro");
+
+Este código cria um objeto da classe Pessoa e, na sequência atribui o valor “Pedro” ao
+atributo nome do objeto. O método set() deve fazer isto via reflexão, chamando o
+método setNome() no objeto p.
+
+Para ler o valor do atributo funciona da mesma forma. Observe:
+
+String nome = Property.get(p, "nome", String.class);
+
+Agora o método get() retorna o valor do atributo nome do objeto p. O parâmetro
+String.class indica o tipo de dado a ser retornado, neste caso uma String.
+
+Dica: Este exercício depende da utilização do generics para ser implementado da
+mesma forma que a resolução apresentada. Portanto é recomendado que os conceitos
+do generics sejam estudados antes de fazer este exercício.
