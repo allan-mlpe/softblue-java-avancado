@@ -3,8 +3,7 @@ Este repositório contém os códigos desenvolvidos quando da realização do cu
 
 Conteúdo:
 
-Aula 01 - Annotations e Reflection API.
-Aula 02 - Generics.
-Aula 03 - Inner Classes.
-Aula 04 - Concorrência e Paralelismo com java.util.concurrent
-[em progresso...]
+Aula 01 - Annotations e Reflection API. <br/>
+Aula 02 - Generics.<br/>
+Aula 03 - Inner Classes.<br/>
+Aula 04 - Concorrência e Paralelismo com java.util.concurrent [em progresso...]
